@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Agricultural Educational App</string>
+
+    <!-- defining the array for our spinner -->
+    <array name="teams">
+        <item>Avengers</item>
+        <item>Justice League</item>
+        <item>X-Men</item>
+        <item>Fantastic Four</item>
+    </array>
+</resources>

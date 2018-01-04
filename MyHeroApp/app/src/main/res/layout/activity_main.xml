@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.simplifiedlearning.myheroapp.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnKategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategori"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Profil"
+        android:layout_below="@+id/btnKategori"
+        android:layout_alignRight="@+id/btnKategori"
+        android:layout_alignEnd="@+id/btnKategori" />
+
+    <Button
+        android:id="@+id/btnSoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Soal"
+        android:layout_below="@+id/btnProfil"
+        android:layout_alignLeft="@+id/btnProfil"
+        android:layout_alignStart="@+id/btnProfil" />
+
+    <Button
+        android:id="@+id/btnModul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modul"
+        android:layout_below="@+id/btnSoal"
+        android:layout_alignLeft="@+id/btnSoal"
+        android:layout_alignStart="@+id/btnSoal"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnSoalDummy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soal Dummy"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/btnModul"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnGuruDummy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="GuruDummy"
+        android:layout_below="@+id/btnSoalDummy"
+        android:layout_alignRight="@+id/btnSoalDummy"
+        android:layout_alignEnd="@+id/btnSoalDummy" />
+
+</RelativeLayout>
